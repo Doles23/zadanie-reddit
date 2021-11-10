@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(199, 211, 221);
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+#wyszukiwarka {
+    padding: 0.5%;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(168, 168, 168);
+}
+#login{
+    border-color: rgb(4, 120, 230);
+    background-color: white;
+    border-radius: 60px;
+    padding: 5px;
+    width: 90px;
+    color: rgb(4, 120, 230);
+    border-width: 1; 
+    margin: 5px;                       
+}
+#signup {
+    border-color: rgb(4, 120, 230);
+    background-color:rgb(4, 120, 230);
+    border-radius: 50px;
+    padding: 5px;
+    width: 90px;
+    color:white;
+    border-width: 1; 
+    margin: 15px;
+}
+img {
+   width: 100%;
+   border-radius: 15px;   
+}
+.logo {
+    height: 60px;
+    width: 100px;
+}
+main{
+    margin:0 100px;
+}
+main .tekst {
+font-size: 10px;
+width: 100%;
+background-color: rgba(0,0,0,0.5);
+position: absolute;
+color: white;
+height: 30%;
+bottom: 4px;
+border-radius: 20px;
+}
+.zdjecie {
+position: relative;
+float: left;
+display: block;
+width: 25%;
+}
+.guzik1 {
+text-decoration: none;
+color: blue;
+border-radius: 1rem;
+border: 1px solid blue;
+background-color: rgb(218, 214, 214);
+padding: 5px;
+}
+.guzik2 {
+text-decoration: none;
+color:rgb(128, 144, 160);
+border:1px black;
+}
+.ramka {
+    padding:1rem;
+    background: rgb(243, 240, 240);
+}
+.ramka a {
+margin: 0 5px;
+border:1px black;
+} 
+main .popular .lewo {   
+    float:left;   
+    width:70%; } 
+main .popular .prawo {   
+    float: right;   
+    width:25%;
+}
+.zawartosc{
+background-color: white;
+width:95%;
+  margin-left:auto;
+}
+.zawartosc a {
+    text-decoration: none;
+}
+na-dol{
+padding: 14px;
+}
+.na-dol a {
+margin: 0 1rem;
+text-decoration: none;
+color: gray;
+}
+.post{ 
+margin: 1.5rem 0;   
+width:100%;   
+height:100%;   
+background-color:#ffffff;
+border:1px black; 
+}
+.prawo {
+margin-left: 1;
+}
+  .prawo .pierwszy {
+    background-color:white;
+    border-radius: 14px;
+  }
+  .prawo .pierwszy .gora{
+    position:relative;
+  }
+  .prawo .napisy {
+    position:absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  .napisy a {
+    text-decoration: none;
+    color:white;
+  }
+  .prawo .pierwszy img {
+    width:100%;
+    height:5rem;
+  }
+  .guzik {
+    display: flex;
+    justify-content: center;
+  }
+  .guzik button {
+    width: 50%;
+    border-radius:1rem;
+    border: 1px solid #008ae6;
+    background-color:#008ae6;
+    color:white;
+    padding: 5px 0;
+  }
+  
+
+
+
+
+
